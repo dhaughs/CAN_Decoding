@@ -1,0 +1,688 @@
+CM_ "2016 Toyota Tacoma TRD Off Road - HS-CAN 500kbps. Signal-validated DBC. Captures: 2026-04-03 KeyOn/EngineOff; 2026-04-05 Idle+LightStalk+Drive.";
+
+VERSION ""
+
+NS_ :
+
+BS_:
+
+BU_:
+
+BO_ 1177 ENG1D51: 8 Vector__XXX
+ SG_ DRENG11 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG12 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG13 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG14 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG15 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG16 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG17 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG18 : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 32 VEHICLE_CONFIG: 4 Vector__XXX
+ SG_ CFG_WORD : 7|32@0+ (1,0) [0|0] "" XXX
+BO_ 186 VSC1S12: 4 Vector__XXX
+ SG_ VSC12SUM : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ VSC12CTR : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 426 VSC_CAL: 6 Vector__XXX
+ SG_ VSC_CAL_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 545 VSC_ZERO_5B: 5 Vector__XXX
+ SG_ VSC5_B4 : 39|8@0+ (1,0) [0|255] "" XXX
+BO_ 552 VSC_ZERO_4B: 4 Vector__XXX
+ SG_ VSC4_B3 : 31|8@0+ (1,0) [0|255] "" XXX
+BO_ 711 PCM_HEARTBEAT: 1 Vector__XXX
+ SG_ PCM_HB : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 800 ZERO_8B_2B: 8 Vector__XXX
+ SG_ SENTINEL_2B : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 866 ZERO_1B: 1 Vector__XXX
+ SG_ ZERO_BYTE : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 900 AVN1S01: 6 Vector__XXX
+ SG_ HVAC_CFG1_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ HVAC_CFG1_B1 : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 902 AVN1S03: 6 Vector__XXX
+ SG_ HVAC_CFG2_B3 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ HVAC_CFG2_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 903 HVAC_CFG3: 8 Vector__XXX
+ SG_ HVAC_CFG3_B6 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ HVAC_CFG3_B7 : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 905 AVN1S08: 8 Vector__XXX
+ SG_ HVAC_HB_B1 : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 910 HVAC_ZERO: 8 Vector__XXX
+ SG_ HVAC_ZERO_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 911 AVN1S07: 8 Vector__XXX
+ SG_ HVAC_CFG4_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 918 CSR1S01: 7 Vector__XXX
+ SG_ TCU4WD_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ TCU4WD_B4 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ TCU4WD_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ TCU4WD_B6 : 55|8@0+ (1,0) [0|255] "" XXX
+BO_ 921 PCM_CRUISE_SM: 8 Vector__XXX
+ SG_ CRUISE_SM_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 944 AIR_CONDITIONER_2: 8 Vector__XXX
+ SG_ ACMOD_B3 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ AC_ARMED : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 945 ABG1S01: 8 Vector__XXX
+ SG_ DBKLAB : 17|2@0+ (1,0) [0|3] "" XXX
+ SG_ AB : 19|2@0+ (1,0) [0|3] "" XXX
+ SG_ CDT : 22|3@0+ (1,0) [0|7] "" XXX
+ SG_ PBKLAB : 25|2@0+ (1,0) [0|3] "" XXX
+ SG_ ABG1S01_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 992 M_LANG: 8 Vector__XXX
+ SG_ LANG_ID : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ CHAR_SET : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 998 AVN1S11: 5 Vector__XXX
+ SG_ CLU5_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 999 AVN1S17: 7 Vector__XXX
+ SG_ CLU7_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1000 AVN1S18: 8 Vector__XXX
+ SG_ CLU8A_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1001 AVN1S19: 8 Vector__XXX
+ SG_ CLU8B_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1008 ZERO_2B: 2 Vector__XXX
+ SG_ ZERO2_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1014 BSD_STAT: 8 Vector__XXX
+ SG_ BSD_B1 : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 1017 VARENG: 8 Vector__XXX
+ SG_ VARENG_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ VARENG_B7 : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1043 AVN1S31: 8 Vector__XXX
+ SG_ TIME_YEAR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ TIME_MONTH : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ TIME_DAY : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ TIME_HOUR : 31|8@0+ (1,0) [0|255] "" XXX
+BO_ 1056 VSC1S08: 8 Vector__XXX
+ SG_ GL1Z : 7|16@0+ (0.005,0) [0|0] "" XXX
+ SG_ GL2Z : 23|16@0+ (0.005,0) [0|0] "" XXX
+ SG_ YRGSDIR : 47|1@0+ (1,0) [0|1] "" XXX
+BO_ 1059 STR1S02: 1 Vector__XXX
+ SG_ ZERO_1B2 : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1063 VSC1S96: 8 Vector__XXX
+ SG_ ZERO8_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1076 NODE_CFG_41: 8 Vector__XXX
+ SG_ NODE41_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NODE41_B1 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ NODE41_B4 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ NODE41_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 1077 CAPSW: 8 Vector__XXX
+ SG_ CAPSW_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ CAPSW_B1 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ CAPSW_B4 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ CAPSW_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 1078 ZERO_8B_1HZ: 8 Vector__XXX
+ SG_ Z8_1HZ_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1079 FF_PADDED: 8 Vector__XXX
+ SG_ FF_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1088 NM_ECU_42: 8 Vector__XXX
+ SG_ ECU42_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ ECU42_TYPE : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 1090 NM_ECU_43: 8 Vector__XXX
+ SG_ ECU43_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ ECU43_TYPE : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 1091 NM_AIRBAG: 8 Vector__XXX
+ SG_ SRS_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ SRS_TYPE : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ SRS_VER_MAJ : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ SRS_VER_MIN : 39|8@0+ (1,0) [0|255] "" XXX
+BO_ 1101 NM_ECU_5A: 8 Vector__XXX
+ SG_ ECU5A_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ ECU5A_TYPE : 15|8@0+ (1,0) [0|255] "" XXX
+BO_ 1114 NM_GATEWAY: 8 Vector__XXX
+ SG_ GW_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ GW_TYPE : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ GW_VER_MAJ : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ GW_VER_MIN : 39|8@0+ (1,0) [0|255] "" XXX
+BO_ 1190 DIAG_PLACEHOLDER_4A6: 8 Vector__XXX
+ SG_ D4A6_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1196 ABG1D50: 8 Vector__XXX
+ SG_ ABG_STATE : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ ABG_B2 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ ABG_B4 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ ABG_B6 : 55|8@0+ (1,0) [0|255] "" XXX
+BO_ 1206 DIAG_PLACEHOLDER_4B6: 8 Vector__XXX
+ SG_ D4B6_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1212 ABG1D51: 8 Vector__XXX
+ SG_ ABG2_STATUS : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1217 NM_PCM_ALIVE: 8 Vector__XXX
+ SG_ PCM_NM_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1219 NM_TCU_ALIVE: 8 Vector__XXX
+ SG_ TCU_NM_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1220 NM_VSC_ALIVE: 8 Vector__XXX
+ SG_ VSC_NM_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1222 NM_BCM_ALIVE: 8 Vector__XXX
+ SG_ BCM_NM_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM_NM_VAR : 23|8@0+ (1,0) [0|255] "" XXX
+BO_ 1244 NM_NAV_ALIVE: 8 Vector__XXX
+ SG_ NAV_NM_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1245 NM_RADIO_ALIVE: 8 Vector__XXX
+ SG_ RADIO_NM_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1352 NM_CLUSTER_ALIVE: 8 Vector__XXX
+ SG_ CLUSTER_NM_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1562 BODY_THERMAL: 8 Vector__XXX
+ SG_ BCM_BODY_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ BODY_TEMP_PROXY : 55|8@0+ (1,0) [0|255] "" XXX
+BO_ 1569 DOOR_LOCK_EVENTS: 8 Vector__XXX
+ SG_ DL_NODE_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1571 BCM_NODE_19: 8 Vector__XXX
+ SG_ BCM19_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1572 BCM_SW_VERSION: 8 Vector__XXX
+ SG_ BCM1A_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM1A_VER_B2 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM1A_VER_B3 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM1A_VER_B4 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM1A_VER_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM1A_VER_B6 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM1A_VER_B7 : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1574 BCM_NODE_1C: 8 Vector__XXX
+ SG_ BCM1C_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1584 BCM_NODE_17: 8 Vector__XXX
+ SG_ BCM17_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1586 BCM_NODE_80: 8 Vector__XXX
+ SG_ BCM80_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1587 BCM_NODE_81: 8 Vector__XXX
+ SG_ BCM81_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1589 BCM_NODE_83: 8 Vector__XXX
+ SG_ BCM83_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1593 BCM_NODE_14: 8 Vector__XXX
+ SG_ BCM14_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1599 BCM_NODE_9B: 8 Vector__XXX
+ SG_ BCM9B_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCM9B_FLAG : 31|8@0+ (1,0) [0|255] "" XXX
+BO_ 1666 ZERO_8B_BCM: 8 Vector__XXX
+ SG_ BCM_ZERO_PAD : 7|8@0+ (1,0) [0|0] "" XXX
+BO_ 1728 BCM_NODE_E4: 8 Vector__XXX
+ SG_ BCME4_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCME4_B3 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ BCME4_B4 : 39|8@0+ (1,0) [0|255] "" XXX
+BO_ 1761 AUDIO_CLUSTER_CFG: 8 Vector__XXX
+ SG_ AUD_NODE_ADDR : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ AUD_UPDATE_BIT : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ AUD_CFG_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 1776 INFOTAINMENT_CFG: 8 Vector__XXX
+ SG_ INFO_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ INFO_B2 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ INFO_B3 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ INFO_B5 : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 36 KINEMATICS: 8 Vector__XXX
+ SG_ ACCEL_Y : 33|10@0+ (0.03589,-18.375) [0|65535] "m/s^2" XXX
+ SG_ YAW_RATE : 1|10@0+ (0.244,-125) [0|65535] "deg/s" XXX
+ SG_ ACCEL_X : 17|10@0+ (0.03589,-18.375) [0|65535] "m/s^2" XXX
+BO_ 37 STEER_ANGLE_SENSOR: 8 Vector__XXX
+ SG_ STEER_ANGLE : 3|12@0- (1.5,0) [-500|500] "deg" XXX
+ SG_ STEER_FRACTION : 39|4@0- (0.1,0) [-0.7|0.7] "deg" XXX
+ SG_ STEER_RATE : 35|12@0- (1,0) [-2000|2000] "deg/s" XXX
+BO_ 170 WHEEL_SPEEDS: 8 Vector__XXX
+ SG_ WHEEL_SPEED_FR : 7|16@0+ (0.01,-67.67) [0|250] "km/h" XXX
+ SG_ WHEEL_SPEED_FL : 23|16@0+ (0.01,-67.67) [0|250] "km/h" XXX
+ SG_ WHEEL_SPEED_RR : 39|16@0+ (0.01,-67.67) [0|250] "km/h" XXX
+ SG_ WHEEL_SPEED_RL : 55|16@0+ (0.01,-67.67) [0|250] "km/h" XXX
+BO_ 180 SPEED: 8 Vector__XXX
+ SG_ ENCODER : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ SPEED : 47|16@0+ (0.01,0) [0|250] "km/h" XXX
+ SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 452 ENGINE_RPM: 8 Vector__XXX
+ SG_ RPM : 7|16@0- (0.78125,0) [0|0] "rpm" SCS
+ SG_ ENGINE_RUNNING : 27|1@0+ (1,0) [0|1] "" XXX
+ SG_ THA1 : 23|8@0+ (2.5,-40) [-40|88] "degC" XXX
+BO_ 466 PCM_CRUISE: 8 Vector__XXX
+ SG_ GAS_RELEASED : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ CRUISE_ACTIVE : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACC_BRAKING : 12|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACCSTAT : 15|3@0+ (1,0) [0|7] "" XXX
+ SG_ ACCEL_NET : 23|16@0- (0.0009765625,0) [-20|20] "m/s^2" XXX
+ SG_ NEUTRAL_FORCE : 39|16@0- (2,0) [-65536|65534] "N" XXX
+ SG_ CRUISE_STATE : 55|4@0+ (1,0) [0|15] "" XXX
+ SG_ CANCEL_REQ : 49|1@1+ (1,0) [0|1] "" XXX
+ SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 705 GAS_PEDAL: 8 Vector__XXX
+ SG_ GAS_RELEASED : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ ETQLVSC : 15|16@0- (0.03125,0) [0|0] "Nm" XXX
+ SG_ ETQREAL : 31|16@0- (0.03125,0) [0|0] "Nm" SCS
+ SG_ ETQISC : 47|8@0+ (1,-192) [0|0] "Nm" XXX
+ SG_ GAS_PEDAL : 55|8@0+ (0.5,0) [0|0] "%" DS1,FCM
+ SG_ CHECKSUM : 63|8@0+ (1,0) [0|0] "" DS1,FCM
+BO_ 956 GEAR_PACKET: 8 Vector__XXX
+ SG_ SPORT_ON : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ BV_THOCL : 23|16@0+ (0.625,-50) [-50|120] "degC" XXX
+ SG_ GEAR : 13|6@0+ (1,0) [0|63] "" XXX
+ SG_ SPORT_GEAR_ON : 33|1@0+ (1,0) [0|1] "" XXX
+ SG_ SPORT_GEAR : 38|3@0+ (1,0) [0|7] "" XXX
+ SG_ ECON_ON : 40|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_GEAR_ENGAGED : 41|1@0+ (1,0) [0|1] "" XXX
+ SG_ DRIVE_ENGAGED : 47|1@0+ (1,0) [0|1] "" XXX
+BO_ 1568 BODY_CONTROL_STATE: 8 Vector__XXX
+ SG_ BODY_STATE_CHANGED : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ METER_DIMMED : 38|1@0+ (1,0) [0|1] "" XXX
+ SG_ PARKING_BRAKE : 60|1@0+ (1,0) [0|1] "" XXX
+ SG_ SEATBELT_DRIVER_UNLATCHED : 62|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_FL : 45|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_RL : 42|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_RR : 43|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_FR : 44|1@0+ (1,0) [0|1] "" XXX
+BO_ 1570 LIGHT_STALK: 8 Vector__XXX
+ SG_ LIGHT_STALK_MOVED : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ UNK_B0_6 : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ PARKING_LIGHT : 28|1@0+ (1,0) [0|1] "" XXX
+ SG_ LOW_BEAM : 29|1@0+ (1,0) [0|1] "" XXX
+ SG_ HIGH_BEAM : 30|1@0+ (1,0) [0|1] "" XXX
+ SG_ UNK_B0_2 : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ UNK_B0_1 : 1|1@0+ (1,0) [0|1] "" XXX
+ SG_ HEADLIGHT_MODE : 23|3@0+ (1,0) [0|15] "" XXX
+BO_ 1020 SOLAR_SENSOR: 8 Vector__XXX
+ SG_ SOLAR_R : 23|9@0+ (100,0) [0|51100] "lux" Vector__XXX
+ SG_ SOLAR_L : 39|9@0+ (100,0) [0|51100] "lux" Vector__XXX
+ SG_ N_LX : 55|13@0+ (1,0) [0|8191] "lux" Vector__XXX
+BO_ 1552 BODY_CONTROL_STATE_2: 8 Vector__XXX
+ SG_ UI_SPEED : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ METER_SLIDER_BRIGHTNESS_PCT : 30|7@0+ (1,0) [12|100] "%" XXX
+ SG_ METER_SLIDER_LOW_BRIGHTNESS : 37|1@0+ (1,0) [0|1] "" XXX
+ SG_ METER_SLIDER_DIMMED : 38|1@0+ (1,0) [0|1] "" XXX
+ SG_ UNITS : 63|3@0+ (1,0) [1|4] "" XXX
+BO_ 550 BRAKE_MODULE: 8 Vector__XXX
+ SG_ BRAKE_PRESSURE : 7|16@0+ (1,0) [0|1000] "" XXX
+ SG_ BRAKE_POSITION : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ BRAKE_PRESSED : 37|1@0+ (1,0) [0|1] "" XXX
+ SG_ VSCACT : 36|1@0+ (1,0) [0|1] "" XXX
+ SG_ ABSACT : 59|1@0+ (1,0) [0|1] "" XXX
+BO_ 562 VSC1S14: 6 Vector__XXX
+ SG_ VWPSUMFR : 7|8@0+ (1,0) [0|255] "pulses" XXX
+ SG_ VWPSUMFL : 15|8@0+ (1,0) [0|255] "pulses" XXX
+ SG_ VWPFRPM : 20|1@0+ (1,0) [0|1] "" XXX
+ SG_ VWPFLPM : 21|1@0+ (1,0) [0|1] "" XXX
+ SG_ S14CNT : 18|3@0+ (1,0) [0|7] "" XXX
+ SG_ VWPFRPMS : 22|1@0+ (1,0) [0|1] "" XXX
+ SG_ VWPFLPMS : 23|1@0+ (1,0) [0|1] "" XXX
+ SG_ VWPSUMRR : 31|8@0+ (1,0) [0|255] "pulses" XXX
+ SG_ VWPSUMRL : 39|8@0+ (1,0) [0|255] "pulses" XXX
+ SG_ VSC14SUM : 47|8@0+ (1,0) [0|255] "" XXX
+BO_ 896 ACN1S01: 8 Vector__XXX
+ SG_ R_AC2 : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ R_HTR : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ ECOSW : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ R_EGON : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ BLWON : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ SCAC : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ CGIH : 1|1@0+ (1,0) [0|1] "" XXX
+ SG_ FAN_AC : 0|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACHI : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACMAX : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ R_VSCUS : 13|1@0+ (1,0) [0|1] "" XXX
+ SG_ R_SHTR : 12|1@0+ (1,0) [0|1] "" XXX
+ SG_ R_PTC : 31|8@0+ (1,0) [0|255] "piece" XXX
+ SG_ GNRTIH : 23|1@0+ (1,0) [0|1] "" XXX
+ SG_ R_COL_TM : 22|1@0+ (1,0) [0|1] "" XXX
+ SG_ R_HET_TM : 21|1@0+ (1,0) [0|1] "" XXX
+ SG_ TAMOUT : 39|8@0- (0.625,0) [-40|87.5] "degC" XXX
+BO_ 933 AVN1S13: 8 Vector__XXX
+ SG_ HUD_DISP : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ DRVSIDE : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ DT_GP : 5|6@0+ (1,0) [0|63] "" XXX
+ SG_ DT_UNIT : 15|3@0+ (1,0) [0|7] "" XXX
+ SG_ DIR_TURN : 12|5@0+ (11.25,0) [0|360] "degree" XXX
+ SG_ ROTARY : 23|1@0+ (1,0) [0|1] "" XXX
+ SG_ ROAD_TP1 : 22|15@0+ (1,0) [0|32767] "" XXX
+ SG_ ROAD_TP2 : 39|16@0+ (1,0) [0|65535] "" XXX
+ SG_ N_H_UP : 55|1@0+ (1,0) [0|1] "" XXX
+ SG_ COMPASS : 54|6@0+ (11.25,0) [0|360] "degree" XXX
+ SG_ DIR : 63|6@0+ (11.25,0) [0|360] "degree" XXX
+BO_ 955 ENG1S92: 8 Vector__XXX
+ SG_ B_ST : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_TC : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_GLOW : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_STPE : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_OMWI : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_SILUP : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_SILDN : 1|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_WSTP : 0|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_LOUT : 12|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_OILPL : 11|1@0+ (1,0) [0|1] "" XXX
+ SG_ B_TMP : 23|8@0+ (0.5,0) [0|130] "degC" XXX
+ SG_ OGENETCS : 31|1@0+ (1,0) [0|1] "" XXX
+BO_ 979 ENG1S28: 2 Vector__XXX
+ SG_ B_FC : 7|16@0+ (0.0005,0) [0|2.44] "ml" XXX
+BO_ 1408 VIN_PART_1: 8 Vector__XXX
+ SG_ VIN_1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_2 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_3 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_4 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_5 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_6 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_7 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_8 : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1409 VIN_PART_2: 8 Vector__XXX
+ SG_ VIN_9 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_10 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_11 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_12 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_13 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_14 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_15 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ VIN_16 : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1410 VIN_PART_3: 8 Vector__XXX
+ SG_ VIN_17 : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 1553 UI_SETTING: 8 Vector__XXX
+ SG_ UNITS : 7|3@0+ (1,0) [0|7] "" XXX
+ SG_ ODOMETER : 39|32@0+ (1,0) [0|4294967295] "km" XXX
+BO_ 1556 BLINKERS_STATE: 8 Vector__XXX
+ SG_ BLINKER_BUTTON_PRESSED : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ HAZARD_LIGHT : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ TURN_SIGNALS : 13|2@0+ (1,0) [0|3] "" XXX
+BO_ 1592 DOOR_LOCKS: 8 Vector__XXX
+ SG_ LOCK_STATUS_CHANGED : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_UNLOCK_A : 17|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_UNLOCK_B : 18|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_UNLOCK_C : 19|1@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_UNLOCK_D : 20|1@0+ (1,0) [0|1] "" XXX
+ SG_ LOCKED_VIA_KEYFOB : 5|1@0+ (1,0) [0|1] "" XXX
+BO_ 1178 ENG1D52: 8 Vector__XXX
+ SG_ DRENG21 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG22 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG26 : 23|8@0+ (0.3702,-40.56) [0|198] "degC_ATF" XXX
+ SG_ BRAKE_PRESSED : 55|1@0+ (1,0) [0|1] "" XXX
+BO_ 926 FOUR_WD_STATE: 2 Vector__XXX
+ SG_ SELECTOR_STATE : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 737 FWM1S01: 2 Vector__XXX
+ SG_ ACTHLF : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ MOT4WD : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ CCANCEL : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ AI4WD : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ LOW4 : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ DLOCK : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ RDLOCK : 1|1@0+ (1,0) [0|1] "" XXX
+ SG_ HLN : 0|1@0+ (1,0) [0|1] "" XXX
+ SG_ F_SP4WD : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ RQ_SP4WD : 14|6@0+ (1,0) [0|200] "km/h" XXX
+BO_ 464 ECT1F03: 8 Vector__XXX
+ SG_ NT : 7|16@0+ (0.3179,0) [0|4000] "rpm" XXX
+ SG_ ACT : 23|1@0+ (1,0) [0|1] "" XXX
+ SG_ XDMET : 22|1@0+ (1,0) [0|1] "" XXX
+ SG_ XNTSW : 21|1@0+ (1,0) [0|1] "" XXX
+ SG_ XNMET : 20|1@0+ (1,0) [0|1] "" XXX
+ SG_ XRMET : 19|1@0+ (1,0) [0|1] "" XXX
+ SG_ XPMET : 18|1@0+ (1,0) [0|1] "" XXX
+ SG_ SFTOUT : 29|2@0+ (1,0) [0|4] "" XXX
+ SG_ LUKG : 30|1@0+ (1,0) [0|1] "" XXX
+ SG_ FBCOA : 31|1@0+ (1,0) [0|1] "" XXX
+ SG_ ECTF03SM : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 544 VSC2F07: 4 Vector__XXX
+ SG_ FSROT : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ BRK2 : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ BRK1 : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ FCNG : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ TSLP : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ TRCACT : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ ABSSLP : 1|1@0+ (1,0) [0|1] "" XXX
+ SG_ VDMACT : 0|1@0+ (1,0) [0|1] "" XXX
+ SG_ DAC_CND : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ VSC2F07S : 31|8@0+ (1,0) [0|255] "" XXX
+BO_ 865 CLUTCH: 8 Vector__XXX
+ SG_ ACC_FAULTED : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ GAS_PEDAL_ALT : 22|8@0+ (0.005,0) [0|1] "" XXX
+ SG_ CLUTCH_RELEASED : 39|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACCEL_NET : 38|11@0+ (0.001,0) [0|2.048] "m/s^2" XXX
+BO_ 976 BCM_SPEED: 1 Vector__XXX
+ SG_ BCM_VEHICLE_SPEED : 7|8@0+ (1,0) [0|255] "km/h" XXX
+BO_ 1554 TRIP_TIMER: 8 Vector__XXX
+ SG_ TRIP_MINUTES : 63|8@0+ (1,0) [0|255] "min" XXX
+BO_ 1564 KEYON_TIMER: 8 Vector__XXX
+ SG_ KEYON_MINUTES : 63|8@0+ (1,0) [0|255] "min" XXX
+BO_ 1557 TRIP_DISTANCE_CTR: 8 Vector__XXX
+ SG_ TRIP_CTR_FLAG : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ TRIP_CTR : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1560 EXHAUST_THERMAL: 8 Vector__XXX
+ SG_ CATALYST_WARMUP : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ EXHAUST_LOAD : 23|8@0+ (1,0) [0|255] "" XXX
+BO_ 1561 FUEL_AND_MAINT: 8 Vector__XXX
+ SG_ OIL_LIFE : 31|8@0+ (1,0) [0|255] "counts" XXX
+ SG_ DATA_VALID : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ MAINT_FLAG : 47|8@0+ (1,0) [0|1] "" XXX
+ SG_ FUEL_LEVEL : 55|8@0+ (1,0) [0|255] "counts" XXX
+BO_ 906 AMBIENT_TEMP_2: 5 Vector__XXX
+ SG_ AMBIENT_TEMP_2 : 31|8@0+ (1,0) [0|255] "" XXX
+BO_ 1189 ENGINE_RUNTIME_CTR: 8 Vector__XXX
+ SG_ RUNTIME_CTR : 55|16@0+ (1,0) [0|65535] "" XXX
+BO_ 490 ENGINE_LOAD_IND: 8 Vector__XXX
+ SG_ LOAD_IND : 55|16@0+ (1,0) [0|65535] "" XXX
+BO_ 1595 KEYON_DECISEC: 8 Vector__XXX
+ SG_ KEYON_100MS : 55|16@0+ (1,0) [0|65535] "x100ms" XXX
+BO_ 1176 ENG1D50: 8 Vector__XXX
+ SG_ DRENG01 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG02 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG03 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG04 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG05 : 39|8@0+ (1.2405,1.663) [0|95] "degC" XXX
+ SG_ DRENG06 : 47|8@0+ (1,0) [0|255] "km/h" XXX
+ SG_ DRENG07 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG08 : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1201 ECT1D53: 8 Vector__XXX
+ SG_ DRECT31 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT32 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT33 : 23|8@0+ (1,0) [0|255] "NT_scaled" XXX
+ SG_ DRECT34 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT35 : 39|8@0+ (1,0) [0|255] "spd_scaled" XXX
+ SG_ DRECT36 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT37 : 55|8@0+ (1,0) [0|255] "" XXX
+BO_ 1197 ENG1D58: 8 Vector__XXX
+ SG_ DRENG81 : 7|8@0+ (1,0) [0|255] "trim_cyl1" XXX
+ SG_ DRENG82 : 15|8@0+ (1,0) [0|255] "trim_cyl2" XXX
+ SG_ DRENG83 : 23|8@0+ (1,0) [0|255] "trim_cyl3" XXX
+ SG_ DRENG84 : 31|8@0+ (1,0) [0|255] "trim_cyl4" XXX
+ SG_ DRENG85 : 39|8@0+ (1,0) [0|255] "trim_cyl5" XXX
+ SG_ DRENG86 : 47|8@0+ (1,0) [0|255] "trim_cyl6" XXX
+BO_ 238 UNKNOWN_0EE: 4 Vector__XXX
+ SG_ RAW_0EE_B0 : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 951 ESP_CONTROL: 8 Vector__XXX
+ SG_ TC_DISABLED : 7|4@0+ (1,0) [0|15] "" XXX
+ SG_ VSC_DISABLED : 3|4@0+ (1,0) [0|15] "" XXX
+ SG_ BRAKE_LIGHTS_ACC : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ BRAKE_HOLD_ENABLED : 23|1@0+ (1,0) [0|1] "" XXX
+ SG_ BRAKE_HOLD_ACTIVE : 31|1@0+ (1,0) [0|1] "" XXX
+ SG_ STRCDISP : 50|3@0+ (1,0) [0|7] "" XXX
+ SG_ VSCSWIH : 51|1@0+ (1,0) [0|1] "" XXX
+BO_ 1762 HVAC_TEMPS: 8 Vector__XXX
+ SG_ HVAC_ZONE1_F : 31|8@0+ (1,0) [0|254] "degF" XXX
+ SG_ HVAC_ZONE2_F : 39|8@0+ (1,0) [0|254] "degF" XXX
+ SG_ HVAC_ZONE3_F : 47|8@0+ (1,0) [0|254] "degF" XXX
+ SG_ HVAC_ZONE4_F : 55|8@0+ (1,0) [0|254] "degF" XXX
+BO_ 1579 BCM_STARTUP_EVENT: 8 Vector__XXX
+ SG_ BCM_STARTUP_DATA : 31|8@0+ (1,0) [0|255] "" XXX
+BO_ 1591 BCM_STARTUP_STATE: 8 Vector__XXX
+ SG_ BCM_STATE_CODE : 31|8@0+ (1,0) [0|255] "" XXX
+BO_ 1179 ENG1D53: 8 Vector__XXX
+ SG_ DRENG31_STATUS : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG32_CALC : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG33_STATE : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG34_TMP : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG35_TMP : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG36_TMP_ECT : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG37_TMP : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG38_FLAGS : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1180 ENG1D54: 8 Vector__XXX
+ SG_ DRENG41_COUNTER : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG42_FIXED : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG43_CALC : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG44_CALC : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG45_CALC : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG46_CALC : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG47_STATE : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG48_FIXED : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1181 ENG1D55: 8 Vector__XXX
+ SG_ DRENG51_ENRICH : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG52_CALC : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG53_CALC : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG54_BASE : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG55_TCORR : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG56_COLD_FLAG : 47|8@0+ (1,0) [0|1] "" XXX
+ SG_ DRENG57_COLD_CTR : 55|8@0+ (1,0) [0|10] "" XXX
+ SG_ DRENG58_CALC : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1182 ENG1D56: 8 Vector__XXX
+ SG_ DRENG61_TYPE : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG62_CALC : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG63_CALC : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG64_TMP : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG65_STATE : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG66_CALC : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG67_CALC : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG68_FLAGS : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1183 ENG1D57: 8 Vector__XXX
+ SG_ DRENG71_MODE : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG72_CALC : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG73_CALC : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG74_CALC : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG75_TMP : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG76_CALC : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG77_CALC : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRENG78_HI_VAR : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1191 PCM_DIAG_4A7: 8 Vector__XXX
+ SG_ D4A7_B0_MODE : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A7_B1_STATE : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A7_B2_CALC : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A7_B3_CALC : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A7_B4_TMP : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A7_B5_STATE : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A7_B6_COLD_FLAG : 55|8@0+ (1,0) [0|1] "" XXX
+ SG_ D4A7_B7_COLD_CTR : 63|8@0+ (1,0) [0|5] "" XXX
+BO_ 1192 PCM_DIAG_4A8: 8 Vector__XXX
+ SG_ D4A8_B0_CALC : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A8_B1_INVER : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A8_B2_TMP_ECT : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A8_B3_TMP : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A8_B4_CALC : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A8_B5_CALC : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A8_B6_WARM_DELTA : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4A8_B7_CALC : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1198 PCM_DIAG_4AE: 8 Vector__XXX
+ SG_ D4AE_ALIVE_BIT : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4AE_RUN_CTR1 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4AE_RUN_CTR2 : 55|8@0+ (1,0) [0|255] "" XXX
+BO_ 1199 PCM_DIAG_4AF: 8 Vector__XXX
+ SG_ D4AF_HEADER1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4AF_HEADER2 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4AF_HEADER3 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ D4AF_TRIM_ZONE : 31|8@0+ (1,0) [0|63] "" XXX
+ SG_ D4AF_COLD_MODE : 47|8@0+ (1,0) [0|3] "" XXX
+ SG_ D4AF_STATE : 55|8@0+ (1,0) [0|11] "" XXX
+ SG_ D4AF_SUB_STATE : 63|8@0+ (1,0) [0|13] "" XXX
+BO_ 1200 ECT1D52: 8 Vector__XXX
+ SG_ DRECT21_FIXED : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT22_FIXED : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT23_HYD : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT24_HYD : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT25_HYD : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT26_HYD : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT27_CYCLE_CTR : 55|16@0+ (1,0) [0|65535] "ticks" XXX
+BO_ 1202 ECT1D54: 8 Vector__XXX
+ SG_ DRECT41_FLAGS : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT42_FIXED : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT43_FIXED : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT44_ATF_TMP : 31|8@0+ (1.6,2.4) [0|255] "degC_approx" XXX
+ SG_ DRECT45_FIXED : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT46_FIXED : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT47_CALC : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT48_STATE : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 1203 ECT1D55: 8 Vector__XXX
+ SG_ DRECT51_MODE : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT52_PRESS : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT53_PRESS : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT54_PRESS : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT55_LINEPRES : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT56_FIXED : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT57_STATE : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ DRECT58_FIXED : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 928 IDLE_ACTUATOR: 8 Vector__XXX
+ SG_ ACTUATOR_DUTY : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 852 AC_EVAP_TEMP: 1 Vector__XXX
+ SG_ EVAP_TEMP : 7|8@0+ (0.5,0) [0|127] "degC" XXX
+BO_ 567 AC_COMPRESSOR: 6 Vector__XXX
+ SG_ AC_COMPRESSOR_ON : 7|8@0+ (1,0) [0|255] "" XXX
+BO_ 467 PCM_CRUISE_2: 8 Vector__XXX
+ SG_ BRAKE_PRESSED : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ PCM_FOLLOW_DISTANCE : 12|2@0+ (1,0) [0|3] "" XXX
+ SG_ LOW_SPEED_LOCKOUT : 14|2@0+ (1,0) [0|3] "" XXX
+ SG_ MAIN_ON : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ SET_SPEED : 23|8@0+ (1,0) [0|255] "km/h" XXX
+ SG_ ACC_FAULTED : 47|1@0+ (1,0) [0|1] "" XXX
+ SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
+BO_ 608 STEER_TORQUE_SENSOR: 8 Vector__XXX
+ SG_ STEER_TORQUE_EPS : 47|16@0- (1,0) [-32768|32767] "" XXX
+ SG_ STEER_TORQUE_DRIVER : 15|16@0- (1,0) [-32768|32767] "" XXX
+ SG_ STEER_ANGLE : 31|16@0- (0.0573,0) [-500|500] "" XXX
+ SG_ STEER_ANGLE_INITIALIZING : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ STEER_OVERRIDE : 0|1@0+ (1,0) [0|1] "" XXX
+ SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
+
+CM_ BO_ 1177 "0x024 (36) Accel X/Y ~0 at rest. [ok] stationary (2026-04-03)";
+CM_ BO_ 37 "0x025 (37) Sweeps -514.5->+399.0 deg (501 unique) during drive. [ok] confirmed (2026-04-05)";
+CM_ BO_ 170 "0x0AA (170) All 4 wheels 0->36.44 km/h, tracks vehicle speed. [ok] confirmed (2026-04-05)";
+CM_ BO_ 180 "0x0B4 (180) 0->36.71 km/h, agrees with wheel speeds within 1.4 km/h. [ok] confirmed (2026-04-05)";
+CM_ BO_ 452 "0x1C4 (452) Crank ramp + ENGINE_RUNNING flip (04-03). 528-2284 rpm under load. [ok] confirmed";
+CM_ BO_ 466 "0x1D2 (466) GAS_RELEASED={0,1} while driving. CRUISE_ACTIVE=0. [ok] confirmed (2026-04-05)";
+CM_ BO_ 705 "0x2C1 (705) 0-34.5% during drive, correlates with RPM. Idle torques plausible. [ok] confirmed";
+CM_ BO_ 956 "0x3BC (956) Sequence D->N->D->R->P on shutdown. VAL_ table correct. [ok] confirmed (2026-04-05)";
+CM_ BO_ 1568 "0x620 (1568) BODY_CONTROL_STATE - DOOR_OPEN_FL/FR/RR/RL at bits 45/44/43/42 confirmed. SEATBELT_DRIVER_UNLATCHED 62 confirmed (1=unlatched). BODY_STATE_CHANGED 15|1 pulses ~1s on state change (same *_STATE_CHANGED pattern as 0x622 and 0x638). Bench-verified 2026-11-11 Sentinel Prime PCB4.";
+CM_ BO_ 1570 "0x622 (1570) LIGHT_STALK - Byte 0 = 0x12 constant (explains why April V-Spy defs were wrong: bit 4 always 1). Signals corrected 2026-11-11 Sentinel Prime PCB4 bench: LIGHT_STALK_MOVED->15|1 (~1s pulse), HEADLIGHT_MODE->23|3 (0=off,2=parking,4=low,7=AUTO), PARKING_LIGHT->28|1, LOW_BEAM->29|1, HIGH_BEAM->30|1 (also set by flash-to-pass). UNK_B0_* bits in byte 0 always 1, purpose unknown.";
+CM_ BO_ 1020 "0x3FC (1020) N_LX continuous ambient lux, SOLAR_R/L dual-sensor. [ok] confirmed (2026-04-05) N_LX range: 0-2 lux at night, 2350-3040 lux daytime. ~2350x dynamic range. Auto threshold: >0 lux (headlights trigger immediately at night floor). Exact lux TBD - need daytime AUTO capture driving into shade.";
+CM_ BO_ 1552 "0x610 (1552) METER_SLIDER_BRIGHTNESS_PCT = dash backlight level. [ok] confirmed (2026-04-05) 43% = headlights off (daytime). 20% = any headlights on (parking or low beam). Drops within ~0.5s of LIGHT_STALK event. Both parking and low beam produce same 20%. UI_SPEED = speedometer display value.";
+CM_ BO_ 550 "0x226 (550) BRAKE_MODULE - BRAKE_PRESSURE 7|16 confirmed (0x0101 rest, climbs to 323 under firm press). BRAKE_PRESSED corrected 40->37 (byte 4 mask 0x20), bench-verified 2026-11-11 Sentinel Prime PCB4. VSCACT 36|1 [ref]-check for overlap. WARNING: ID conflicts with TRACK_B_6 in toyota_adas.dbc (radar track) - different bus.";
+CM_ BO_ 562 "0x232 (562) VSC1S14 - VWPSUM FR/FL/RR/RL = wheel pulse counters, wraps 0-255. Monotonically incrementing while moving. S14CNT = 3-bit rolling counter. VWPFRPM/FLPM appear reserved (zero). [ok] confirmed stationary and driving";
+CM_ BO_ 896 "0x380 (896) ACN1S01 - TAMOUT = outside air temperature in degC. Range observed: 10.0->35.6degC across all captures. Plausible April Indiana readings. Other signals (BLWON, ACHI etc.) = A/C system flags, all zero in these captures. [ok] confirmed [ref: R_PTC taken from Toyota 2017 reference DBC, unconfirmed in capture]";
+CM_ BO_ 933 "0x3A5 (933) AVN1S13 - COMPASS = heading in degrees 0-348.75, 16 cardinal sectors. 21 discrete values observed during drive (11.25deg resolution). [ok] confirmed [ref: all signals taken from Toyota 2017 reference DBC, unconfirmed in capture]";
+CM_ BO_ 955 "0x3BB (955) ENG1S92 - B_TMP = engine coolant temperature in degC (scale 0.5, offset 0). Observed 57.5->93.0degC warm-up trajectory across sessions. B_ST = starter engaged flag. B_STPE = starter pending. Other flags (B_TC, B_GLOW, etc.) = zero in all captures. [ok] confirmed";
+CM_ BO_ 979 "0x3D3 (979) ENG1S28 - B_FC = fuel consumed per injection cycle in mL. Range 0.0->2.44 mL, 128 unique values, correlates with engine load. [ok] confirmed [ref: B_FC taken from Toyota 2017 reference DBC, unconfirmed in capture]";
+CM_ BO_ 1408 "0x580 (1408) VIN_PART_1 - VIN bytes 1-8, ASCII encoded. Decoded VIN prefix: 5TFAZ5... (confirmed matches truck). [ok] confirmed";
+CM_ BO_ 1409 "0x581 (1409) VIN_PART_2 - VIN bytes 9-16 ASCII. [ok] confirmed";
+CM_ BO_ 1410 "0x582 (1410) VIN_PART_3 - VIN byte 17 ASCII. [ok] confirmed";
+CM_ BO_ 1553 "0x611 (1553) UI_SETTING - ODOMETER in km (integer, increments ~1km per trip). Observed 154,077->154,080 km across 3 sessions (+3 km). UNITS=0=km mode. [ok] confirmed";
+CM_ BO_ 1556 "0x614 (1556) BLINKERS_STATE - TURN_SIGNALS: 1=left, 2=right, 3=center/off. Value 0 observed only pre-boot (uninitialized). HAZARD_LIGHT is a separate bit. BLINKER_BUTTON_PRESSED = 1s pulse when stalk moved. [ok] confirmed (2026-04-08)";
+CM_ BO_ 1592 "0x638 (1592) DOOR_LOCKS - Byte 0 = 0x13 constant (old LOCK_STATUS bit 6 never moved). Corrected 2026-11-11 Sentinel Prime PCB4 bench: LOCK_STATUS_CHANGED->15|1 (~1s pulse). DOOR_UNLOCK_A/B/C/D at bits 17-20 (byte 2 mask 0x1E): 1=unlocked, all-zero=all locked. Bit-to-door order TBD (test each door from inside handle). LOCKED_VIA_KEYFOB 5|1 [ref]-not bench tested.";
+CM_ BO_ 1178 "0x49A (1178) ENG1D52 - PCM diagnostic frame, includes ATF temp candidate. B2 (DRENG26): strong ATF temperature candidate. Scale: ATF_degC = 0.3702 ? B2 ? 40.56 Pre-init: B2=0 (B0=B1=0xFF) for ~60s after key-on until ECU ready. At engine-on t=64s: impl=-6.9degC, ECT=-6.5degC -> ?=0.4degC (shared cold soak [ok]) Diverges warmer than ECT for 5-8 min (torque converter friction heat [ok]) Plateaus ~30-33degC while ECT continues rising (limited idle heat input [ok]) ECT eventually overtakes at ~t=670s (coolant higher steady-state at idle [ok]) Previously misidentified as throttle signal in drive sessions - confounded by GAS and ATF temp both rising during driving (r vs GAS=0.96 in drive, r vs ECT=0.914 in idle-only session - idle session is ground truth). [?] needs driving session confirmation: ATF should exceed coolant at highway load. B0, B1: varying 17->255, 21->255 - uncertain, possibly raw ADC or related signals. [ok] ATF hypothesis (2026-04-16 overnight soak cold-to-warm idle)";
+CM_ BO_ 926 "0x39E (926) UNDEFINED - 4WD selector state. 1-byte register. 0x00=2H, 0x10=shifting, 0x08=4H, 0x0A=shifting(4H?4Lo), 0x09=4Lo. Full 2H->4H->4Lo->4H->2H cycle confirmed. [ok] confirmed (2026-04-08)";
+CM_ BO_ 737 "0x2E1 (737) FWM1S01 - 4WD module flags. MOT4WD=motor 4WD active, LOW4=4Lo engaged, AI4WD=all-wheel-drive active. All confirmed to toggle with 4WD selector. [ok] confirmed (2026-04-08)";
+CM_ BO_ 464 "0x1D0 (464) ECT1F03 - Transmission turbine shaft speed and gear state. NT = turbine shaft speed in RPM. When LUKG=1 (lockup), NT ? ENGINE_RPM exactly. SFTOUT = gear: 0=neutral/converter, 1=1st, 2=2nd, 3=3rd, 4=4th+ (AC60 6-speed). LUKG = torque converter lockup engaged (0=slip, 1=direct drive). ECTF03SM = rolling checksum. Other flags (ACT, XDMET, etc.) zero in normal driving. [ok] confirmed with drive correlation (NT/RPM=1.001 at lockup) (2026-04-10)";
+CM_ BO_ 544 "0x220 (544) VSC2F07 - Dual-circuit brake flags. BRK1=light pedal contact, BRK2=medium-heavy braking, BRK1+BRK2=heavy stop. These are REDUNDANT HYDRAULIC CIRCUIT sensors (both circuits), NOT front/rear split. 4 patterns: 0x00=off, 0x08=BRK1, 0x10=BRK2, 0x18=both. VSC2F07S = checksum (always byte0 + 0x26). TRCACT, ABSSLP, VDMACT = 0 in normal driving (require Session H to confirm). [ok] confirmed brake correlation (2026-04-10)";
+CM_ BO_ 865 "0x361 (865) CLUTCH - Gas pedal and acceleration signals from VSC module. GAS_PEDAL_ALT = GAS_PEDAL/100 (normalized 0-1.0 scale, matches 0x2C1 GAS_PEDAL ? 100). ACCEL_NET = longitudinal vehicle acceleration in m/s? (signed, ?0.6 typical). CLUTCH_RELEASED = always 1 on AC60 automatic (no manual clutch). ACC_FAULTED = 0 (adaptive cruise not present on this trim). [ok] confirmed drive correlation (2026-04-10)";
+CM_ BO_ 976 "0x3D0 (976) BCM_SPEED - Body controller vehicle speed copy. 1-byte speed indicator, approximately km/h (slightly lower than 0x0B4 due to non-stock tires). 33 unique values during drive, tracks acceleration/deceleration exactly. Scale ~1 count/km/h. Used internally by body control cluster. [?] partially confirmed - scale plausible, exact resolution TBD (2026-04-10)";
+CM_ BO_ 1554 "0x612 (1554) TRIP_TIMER - Trip elapsed time in minutes. Byte 7 increments +1 every 60 seconds exactly. Confirmed over 820s drive (+13 min [ok]). Byte 0=0x27 fixed (node ID). B5=0xFF fixed. All other bytes fixed during drive. Likely used by BCM for fuel economy calculation or diagnostic trip logging. [ok] confirmed (2026-04-10)";
+CM_ BO_ 1564 "0x61C (1564) KEYON_TIMER - Key-on elapsed time in minutes. Byte 7 increments +1 every 60 seconds. Confirmed: 4->17 over 787s (+13 [ok]). Separate from 0x612 (may count ignition-on vs engine-run time). [ok] confirmed (2026-04-10)";
+CM_ BO_ 1557 "0x615 (1557) TRIP_DISTANCE_CTR - Fine elapsed distance/time counter. Byte 7 increments ~1 per 14.5s (55 counts / 800s). Byte 1 = update flag (0x80). Rate consistent with ~100-200m per count -> trip distance counter. [?] hypothesis - confirm with measured trip distance (2026-04-10)";
+CM_ BO_ 1560 "0x618 (1560) THERMAL_SENSOR_1 - Slowly varying thermal sensor, byte 3. Rises during initial driving, peaks ~6-7 min in, then stabilizes/decreases. Does NOT correlate with TAMOUT or coolant temp directly. CONFIRMED: load-driven exhaust/catalyst proxy. B3=0 at idle regardless of ECT. Full cold-to-hot ramp confirmed: 0 at cold idle -> 10 counts at first driving -> rises in steps of 10 to 210+ at sustained highway. Increments/decrements in 10-count steps every ~10s. Quantized thermal sensor or filtered exhaust enthalpy proxy. Peaks ~160-210 at sustained highway. Drops to 0 when at idle with no load. Pre-start anomaly: B3=230 (0xE6) appears briefly at t=0 before crank in one session, clears immediately once engine fires. May be defrost relay state or sensor initialization. [ok] full cold-to-hot ramp confirmed. Pre-start transient noted (2026-04-16)";
+CM_ BO_ 1561 "0x619 (1561) FUEL_AND_MAINT - Fuel level + maintenance reminder. CONFIRMED 2026-04-27: both signals step simultaneously on refuel. B5 = maintenance reminder flag: 0x01=OK (reset), 0x00=overdue (wrench on) Flips 0x01->0x00 when reminder fires, 0x00->0x01 when reset after service. Confirmed: 0x00 throughout Apr 14-27 (overdue), flipped to 0x01 after reset. B3 = primary fuel level. LINEAR: 0=empty, 175=21.1gal full. Formula: gallons = B3 ? 21.1/175  |  liters = B3 ? 79.9/175 Calibration: B3=116 at low-fuel-light-on = 14.0 gal EXACT (21.1/175?116=14.0). Scale: 0.1207 gal/count = 0.457 L/count. [ok] confirmed perfect linear fit. Tank: 21.1 US gal (79.9L). Low fuel light threshold: ~14.0 gal (B3?116). B6 = secondary fuel signal, not cleanly zero-anchored. Low gas: B6=29. Full: B6=127. Does not fit same linear model as B3. Likely a damped/filtered sender variant with different offset. Use B3. B4 = 0x64 when running, 0x60 briefly at key-on (data validity flag). B1 = BCM update flag (0x00/0x80 alternating). [ok] fuel and maintenance signals confirmed (2026-04-27)";
+CM_ BO_ 1189 "0x4A5 (1189) ENGINE_RUNTIME_CTR - Cumulative engine runtime counter (bytes 6:7). 16-bit value (B6:B7 big-endian) increases from ~1000 to ~1700 over 810s drive. Rate: ~0.86/s = 51/min. Consistent with seconds counter (?0.86 scale) or similar. Bytes 0-5 fixed (B2=0xC0, B5=0x02 constant). Only B6:B7 vary. [?] hypothesis - monotonic increase pattern confirmed, unit TBD (2026-04-10)";
+CM_ BO_ 490 "0x1EA (490) ENGINE_LOAD_IND - Engine load/power indicator (bytes 6:7). 16-bit value (B6:B7): ~700 at idle/low load, ~2700 at highway cruise. B4=0x50, B5=0x00 constant. Noisy but tracks engine output roughly. Hypothesis: engine torque estimate (Nm ? some scale) or EFI load percentage. [?] hypothesis - correlation observed but not cleanly identified (2026-04-10)";
+CM_ BO_ 1595 "0x63B (1595) KEYON_DECISEC - Key-on elapsed time counter, bytes 6:7. B6:B7 as 16-bit big-endian = deciseconds elapsed since key-on. Confirmed rate: exactly 10.0 counts/s = 100ms resolution. ?=7813 counts / 781s = 10.004/s [ok] (13 consecutive 60s windows all = +601 ?1). Bytes 0-5 fixed: B0=0x16, B2=0x45, B3=0x05 (static config bytes). [ok] confirmed (2026-04-10)";
+CM_ BO_ 1176 "0x498 (1176) ENG1D50 - PCM diagnostic broadcast, engine signals. DRENG06 = vehicle speed in km/h (1:1 confirmed [ok]). DRENG02 = RPM / ~230 (low-res RPM proxy, 2->17 = 460->3910rpm). DRENG05 = coolant temperature from PCM (scale ? 1.265degC/count, 47->74 = 60->93degC [ok]). DRENG04 = secondary thermal reference (~170-174, near-constant). DRENG03 = rolling counter (0->255 wrapping). All DRENGxx signals are internal PCM representations, not DBC-standard scaled values. [ok] partially confirmed by correlation (2026-04-10)";
+CM_ BO_ 1201 "0x4B1 (1201) ECT1D53 - Transmission diagnostic broadcast. DRECT33 = NT (turbine shaft rpm / ~104). r=0.995 vs NT_rpm [ok]. DRECT35 = SPEED_kmh / ~3.8. r=0.999 vs SPEED_kmh [ok]. DRECT34, DRECT36 = 0->255 wrapping counters (different phases). DRECT37 = inverse speed indicator. [ok] DRECT33 and DRECT35 confirmed by correlation (2026-04-10)";
+CM_ BO_ 1197 "0x4AD (1197) ENG1D58 - Per-cylinder PCM trim values (6 cylinders, 1GR-FE V6). DRENG81-86 = one value per cylinder. Initialized to 0x33 (=51) before engine cranks. Immediately updates to per-cylinder values on first crank (t?4s from key-on). Values range 51-69 during warm operation. Fluctuate with RPM/load. NOT static once driving - 41 unique patterns in cold+drive session. Hypothesis: per-cylinder fuel injection trim or ignition advance offsets. The 0x33 default is a classic embedded 'uninitialized' sentinel value. During warm idle they APPEAR static but are actually load-following slowly. [ok] cold start behavior confirmed (2026-04-15 overnight soak session)";
+CM_ BO_ 238 "0x0EE (238) - Periodic 4-byte message, 2 unique patterns, ~4Hz. Likely a body control module keep-alive or gateway heartbeat. Appears only in sessions with engine running. Needs further characterization. [?] identity unknown (2026-04-15)";
+CM_ BO_ 951 "0x3B7 (951) ESP_CONTROL - TC/VSC/Brake hold state. Normal running state: all zero except B7=0x08 (static). Pre-init state (t=0 to ~2.5s before first crank): TC_DISABLED=1, VSC_DISABLED=3. Pattern: 58 3B 00 0C 00 30 00 08 This is the VSC ECU self-test sequence on key-on, NOT a user TC/VSC disable event. TC_DISABLED=1 and VSC_DISABLED=3 -> both clear to 0 the instant engine fires. VSC_DISABLED=3 specifically (not 1) during init: 'system initializing' sentinel. B7=0x08 bit3 is ALWAYS set in both patterns - static status field. BRAKE_LIGHTS_ACC: presumably brake-lights active via ACC system (0 throughout) BRAKE_HOLD_ENABLED / BRAKE_HOLD_ACTIVE: hill-start assist (0 throughout idle) [?] User-triggered TC/VSC button disable NOT yet captured - still needs Session H. [ok] pre-init state and normal state confirmed (2026-04-16)";
+CM_ BO_ 1762 "0x6E2 (1762) HVAC_TEMPS - HVAC zone temperatures in Fahrenheit. Node 0xA2, update bit B1=0x80. B3-B6 = zone temperatures in Fahrenheit (raw byte = degF value directly). 0xFE = null/invalid - appears for first ~15s after key-on, then valid data. Observed Sep 6 2026 2:41PM Indianapolis: 74-82 degF (23-28 degC). Steps in 2 degF increments (0x4A=74, 0x4C=76, 0x4E=78, 0x50=80, 0x52=82). Scale: raw_byte = degF. Celsius = (raw - 32) x 5/9. B3/B4/B5/B6 = four different cabin zones or sensor locations. [ok] confirmed Fahrenheit encoding (2026-09-06)";
+CM_ BO_ 1579 "0x62B (1579) BCM_STARTUP_EVENT - BCM one-shot startup broadcast. Appears once at t~3.7s from key-on. Never repeats. B1=0x80 update bit. B0=0x97 node address. Content = BCM state snapshot at init. [?] single-frame event (2026-09-06)";
+CM_ BO_ 1591 "0x637 (1591) BCM_STARTUP_STATE - BCM two-frame startup state. 2 frames at t~3.7s from key-on, B3 steps 0x44->0x48. [?] startup-only event (2026-09-06)";
+CM_ BO_ 1179 "0x49B (1179) ENG1D53 - PCM diagnostic block, temperature-heavy. B5: 0->254, r=0.89vsTMP, scale~0.19degC/count - coolant temp echo, PCM encoding. B3: 0->200, r=0.56vsTMP - secondary temp-correlated signal. B4: 0->104, r=0.52vsTMP - tertiary temp-correlated signal. B6: 0->255, r=0.58vsTMP - engine thermal state. B0: 3 values (8/10/12) - status flag or rolling nibble. B1: 0->255, 106 unique - high-frequency calculation (fuel delivery?). B2: 0->255, 12 unique - engine state step counter. B7: 4 values (0/32/128/160) - discrete status flags. [?] scaled values not calibrated to physical units (2026-09-06)";
+CM_ BO_ 1180 "0x49C (1180) ENG1D54 - PCM diagnostic block, rolling counter + calculation. B0: rolling counter 0xFA->0xFF->0x00->0xFA (250-255 then 0). Message counter/checksum. B1=0x0C STATIC, B7=0x0B STATIC - fixed frame identifiers. B2-B5: 0->105, correlated calculations - likely fuel trim or injection data. B6: 0->48, 8 unique values - discrete state. [?] B0 is a rolling message counter, NOT a sensor value (2026-09-06)";
+CM_ BO_ 1181 "0x49D (1181) ENG1D55 - PCM diagnostic block, cold-engine flags. B5: 0xFF=cold engine not ready, 0x00=warm - cold-start flag. Clears at ECT~10degC. B6: counts DOWN 10->9->...->0 during warmup, then stays 0. Cold enrichment countdown. B0: 20->54, r=-0.44vsTMP - inverse temp relationship (cold enrichment amount). B4: 6 values 58-74, r=0.37vsTMP - temperature compensation factor. B3: 98->144 - wide range base fueling parameter. [ok] B5/B6 cold-flag behavior confirmed (2026-09-06)";
+CM_ BO_ 1182 "0x49E (1182) ENG1D56 - PCM diagnostic block. B0=0x50=80 STATIC - frame type identifier. B4: 8 values 12-127 - discrete state levels (shift quality? fuel mode?). Remaining bytes: high-variation calculations with no strong single correlation. [?] content unidentified (2026-09-06)";
+CM_ BO_ 1183 "0x49F (1183) ENG1D57 - PCM diagnostic block, high-variation. B7: 224 unique values, no correlation - high-frequency internal calculation. When B7=0x00, other bytes show 0xFF pattern = inactive/zero-crossing state. B1/B2: 119/149 unique values - injector timing or ignition data. B0: 15 values - engine operating mode. [?] content unidentified, likely ignition/injection timing (2026-09-06)";
+CM_ BO_ 1191 "0x4A7 (1191) PCM_DIAG_4A7 - PCM diagnostic block, cold-engine flags. B6/B7: both 0xFF cold (ECT<8degC), count DOWN 5->4->3->2->1->0 then stay at 0. Same cold-start countdown pattern as 0x49D B6/B7. B0: 8 values (0,0x18,0x1E,0x50,0x58,0x60,0x68,0x78,0x98) - engine mode flags. B2: 225 unique - high-frequency internal calculation. B4: 97->144 - temperature-affected parameter. B5: 5 values 61->74 - narrow-range state. [ok] B6/B7 cold-flag behavior confirmed (2026-09-06)";
+CM_ BO_ 1192 "0x4A8 (1192) PCM_DIAG_4A8 - PCM diagnostic block, coolant temp echo. B2: 0->254, r=0.87vsTMP, scale~0.19degC/count - coolant temp, PCM internal. Same encoding as 0x49B B5. Starts 0 at ECT=3degC, ~250 at ECT=52degC. B3: r=0.58vsTMP - secondary thermal signal. B6: 14->49, r=-0.56vsTMP - inverse temp (cold=high, warm=low), warmup delta. B0: 112 unique - high-variation calculation (may be fuel delivery rate). [?] B2 scale not calibrated for full range (wrap behavior at >50degC unknown)";
+CM_ BO_ 1198 "0x4AE (1198) PCM_DIAG_4AE - PCM diagnostic block, rolling alive bit. B0: toggles 0x00/0xFF irregularly throughout capture - PCM watchdog/alive bit. NOT correlated with temperature (prior r=-0.74 was spurious from 2-state data). B1: decrements very slowly (252->251 over 384s) - accumulated run counter ~0.003/s. B6: decrements very slowly (255->254 over 384s) - same counter, different encoding. B2=0xFE, B3=0xFD, B4=0xFF, B5=0x00, B7=0x01: all STATIC. [ok] alive bit pattern confirmed (2026-09-06)";
+CM_ BO_ 1199 "0x4AF (1199) PCM_DIAG_4AF - PCM diagnostic block, stable params. B0=0x04, B1=0x02, B2=0x02 STATIC - fixed frame header. B3: 0->63, 12 unique - PCM closed-loop state (fuel trim zone?). B5: 3 values (0/1/3), r=-0.62vsTMP - cold-engine mode flag. B6: 2 values (1/11) - system state selector. B7: 7 values (1-13) - sub-state counter. [?] content partially identified (2026-09-06)";
+CM_ BO_ 1200 "0x4B0 (1200) ECT1D52 - TCU diagnostic block. B0=0x00, B1=0x00 STATIC. B2/B3/B4/B5: discrete multi-value signals (line pressure? clutch solenoids?). B2: 5 values (13,15,127 etc.), B3: 6 values, B4: 7 values, B5: 4 values. B6:B7 as 16-bit: incrementing counter at 18.03/s (55ms period). Represents TCU internal 18Hz cycle counter. Each 0x4B0 frame advances ~9 counts. [?] B2-B5 unidentified, likely hydraulic pressure/solenoid state (2026-09-06)";
+CM_ BO_ 1202 "0x4B2 (1202) ECT1D54 - TCU diagnostic block, temperature signal. B3: 14->28, r=0.93vsTMP, scale=3.46degC/count. Tracks coolant closely during idle (ATF tracks ECT when converter not slipping). At ECT=90degC, B3?39. This is likely ATF temperature in TCU encoding. B6: 0->122, 45 unique - TCU calculation signal. B0: 12 unique values 0-76 - TCU state flags. [ok] B3 temperature behavior confirmed across multiple sessions (2026-09-06)";
+CM_ BO_ 1203 "0x4B3 (1203) ECT1D55 - TCU diagnostic block, pressure/solenoid data. B0=0x40=64 dominant (occasional 0x00) - TCU operating mode flag. B1/B2/B3: occasionally show 0x54=84 in round-robin sequence - clutch pack pressure? B4: 5->113 increasing with ECT - line pressure compensation for ATF viscosity. B5=0x0F STATIC - fixed parameter. B6: 9->255, 11 unique - discrete state levels. [?] clutch solenoid / line pressure hypothesis (2026-09-06)";
+CM_ BO_ 928 "0x3A0 (928) MAP_PROXY - Closed-loop control feedback signal. B7: oscillates 55->86 with mean ~9.3s period (irregular 3-22s). Pseudo-sinusoidal waveform throughout idle. Not correlated with RPM, load, or temp. Behavior is characteristic of a closed-loop feedback controller hunting: - IAC (idle air control) valve position, OR - EVAP canister purge valve duty cycle, OR - EGR valve position feedback All three are closed-loop PWM actuators that produce this oscillation at idle. NOT manifold pressure (MAP) - true MAP would correlate with RPM and load. [?] actuator identity unconfirmed - need OBD scanner running IAC/EVAP/EGR PIDs";
+CM_ BO_ 852 "0x354 (852) AC_EVAP_TEMP - A/C evaporator outlet temperature. Scale=0.5degC confirmed. When A/C running: sits at ~8-9degC (coil baseline). Rises when cooling demand reduced (temp dial toward heat). NOT cabin setpoint, NOT cabin air temp - it is the evap coil sensor. Session B: 8->20.5degC when turning to max heat (reduced compressor load). Session F: stable at 8-9degC throughout with A/C actively cooling. [?] partially confirmed - scale plausible, exact sensor ID uncertain";
+CM_ BO_ 567 "0x237 (567) AC_COMPRESSOR - A/C compressor clutch cycling state. B0=0x01 = compressor ON, B0=0x00 = compressor OFF. Alternates at ~5Hz when A/C is active (compressor clutch cycling). B1, B5 vary with B0 - likely related sensor/checksum values. Middle bytes fixed: B2=0xF0, B3=0x60, B4=0x00. B5 checksum algorithm unknown (XOR and SUM both fail to match). [ok] confirmed compressor ON/OFF (2026-04-09 Sessions F and B)";
+CM_ BO_ 467 "0x1D3 (467) PENDING - not present in any capture yet. Needs brake event capture.";
+CM_ BO_ 608 "0x260 (608) PENDING - not present in any capture yet. Check VSPY filter/network settings.";
+
+VAL_ 466 CRUISE_STATE 11 "timer_3sec" 10 "adaptive click down" 9 "adaptive click up" 8 "adaptive engaged" 7 "standstill" 6 "non-adaptive click up" 5 "non-adaptive click down" 4 "non-adaptive hold down" 3 "non-adaptive hold up" 2 "non-adaptive being engaged" 1 "non-adaptive engaged" 0 "off";
+VAL_ 956 SPORT_ON 0 "off" 1 "on";
+VAL_ 956 GEAR 0 "D" 1 "S" 8 "N" 16 "R" 32 "P";
+VAL_ 956 SPORT_GEAR_ON 0 "off" 1 "on";
+VAL_ 956 SPORT_GEAR 1 "S1" 2 "S2" 3 "S3" 4 "S4" 5 "S5" 6 "S6";
+VAL_ 956 ECON_ON 0 "off" 1 "on";
+VAL_ 956 B_GEAR_ENGAGED 0 "off" 1 "on";
+VAL_ 956 DRIVE_ENGAGED 0 "off" 1 "on";
+VAL_ 1570 HEADLIGHT_MODE 0 "headlights off" 2 "force parking lights" 4 "force low beams" 7 "auto low beams" 6 "auto parking lights";
+VAL_ 467 LOW_SPEED_LOCKOUT 2 "low speed locked" 1 "ok";
+VAL_ 467 PCM_FOLLOW_DISTANCE 1 "far" 2 "medium" 3 "close";
+VAL_ 926 SELECTOR_STATE 0 "2H" 8 "4H" 9 "4Lo" 16 "shifting" 10 "shifting_4H_4Lo" ;
+VAL_ 1556 TURN_SIGNALS 1 "left" 2 "right" 3 "off" 0 "init" ;
